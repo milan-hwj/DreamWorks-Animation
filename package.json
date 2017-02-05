@@ -1,0 +1,46 @@
+{
+  "name": "DreamWorks-Animation",
+  "version": "1.0.0",
+  "author": "milan(white gourd angel)",
+  "repository": "git://github.com/milan-hwj/DreamWorks-Animation",
+  "homepage": "https://github.com/milan-hwj/DreamWorks-Animation",
+  "license": "MIT",
+  "reveal": true,
+  "description": "DreamWorks-Animation.",
+  "keywords": [
+    "Animation",
+    "code",
+    "visualization"
+  ],
+  "engines": {
+    "node": ">=4.x.x"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "eslint": "^3.6.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "fs": "^0.0.1-security",
+    "underscore": "^1.8.3",
+    "webpack": "^1.13.2",
+    "xtemplate": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.0",
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "~6.1.18",
+    "babel": "~6.1.18",
+    "babel-core": "~6.1.19",
+    "babel-loader": "~6.1.0",
+    "babel-plugin-antd": "^0.4.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-polyfill": "^6.2.0",
+    "babel-preset-react": "~6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babel-runtime": "^6.2.0",
+    "extract-text-webpack-plugin": "^0.9.1"
+  }
+}

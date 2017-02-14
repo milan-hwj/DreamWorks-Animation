@@ -15,7 +15,7 @@ module.exports = {
         extensions: ['', '.js', '.jsx']
     },
     plugins: [
-        new ExtractTextPlugin("[name].css"),
+        new ExtractTextPlugin("./release/[name].css"),
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false

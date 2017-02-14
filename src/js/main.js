@@ -1,11 +1,12 @@
 /**
  * @author   milan(white gourd angel)
- * @describe render result html
+ * @describe 可视化动画制作平台，支持事件绑定、动画外部调用等二次开发特性
  */
-import '../less/main.less';
+import './main.less';
+import UIinit from './UI/main';
 class Main {
     constructor() {
-        console.info('init');
+        UIinit();
     }
     render(data) {
     }

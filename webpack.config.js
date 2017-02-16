@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -23,6 +24,11 @@ module.exports = {
             output: {
                 comments: false
             }
+        }),
+        new HtmlWebpackPlugin({
+            filename: './release/index.html',
+            template: './src/html/index.html',
+            inject: false
         })
         // new webpack.optimize.UglifyJsPlugin({
         //     minimize: false,

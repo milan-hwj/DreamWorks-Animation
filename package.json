@@ -25,12 +25,18 @@
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
     "fs": "^0.0.1-security",
+    "mint-ui": "^2.1.1",
     "style-loader": "^0.13.1",
     "underscore": "^1.8.3",
+    "vue": "^2.1.10",
+    "vue-router": "^2.2.0",
     "webpack": "^1.13.2",
     "xtemplate": "^4.6.0"
   },
   "devDependencies": {
+    "vue-loader": "^11.0.0",
+    "vue-style-loader": "^2.0.0",
+    "vue-template-compiler": "^2.1.10",
     "eslint": "^3.0.0",
     "html-webpack-plugin": "2.22.0",
     "babel-cli": "^6.10.1",

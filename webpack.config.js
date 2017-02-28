@@ -13,6 +13,9 @@ module.exports = {
     devtool: '#source-map',
     resolve: {
         root: [path.resolve('./src'), path.resolve('./lib')],
+        alias: {
+            vue: 'vue/dist/vue.js'
+        },
         extensions: ['', '.js', '.jsx']
     },
     plugins: [
@@ -39,6 +42,10 @@ module.exports = {
     ],
     module: {
         loaders: [
+            {
+                test: /\.vue$/,
+                loader: 'vue'
+            },
             {
                 test: /\.(css)$/,
                 loader: 'style-loader!css-loader'

@@ -4,8 +4,15 @@
  */
 import './main.less';
 import UIinit from './UI/main';
+// import Vuex from 'vuex'
+// Vue.use(Vuex);
+
+import i18n from './i18n/main';
+
 class Main {
     constructor() {
+        i18n.init('zh_cn');
+        console.info(i18n.getMsg());
         UIinit();
     }
     render(data) {

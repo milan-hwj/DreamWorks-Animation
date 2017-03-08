@@ -5,11 +5,6 @@
 import './main.less';
 import Vue from 'vue';
 import pageHead from './head';
-import { Button, Menu, MenuItem, Submenu } from 'element-ui';
-
-Vue.component('el-menu', Menu);
-Vue.component('el-menu-item', MenuItem);
-Vue.component('el-submenu', Submenu);
 
 class Main {
     constructor() {
@@ -41,4 +36,3 @@ class Main {
     }
 }
 export default () => new Main ();
-
